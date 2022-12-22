@@ -11,7 +11,7 @@ blocks. To implement this we need to keep track of the times at which the blocks
 
 
 ## Implementation of LRU
-We instead of keeping track of count variable and wasting psace as for each block this needs to be kept and incremented,we used an algorithm that just pushed the accessed block from back and removed whichever block which 
+We instead of keeping track of count variable and wasting space as for each block this needs to be kept and incremented, we used an algorithm that just pushed the accessed block from back and removed whichever block which 
 was present at the beginning whenever there was a miss and the new block was brought from main memory and added to the back of that and so on. 
 ## Implementation in C++
 We used a vector to which we pushed the block tag whenever that particular block got a miss at the particular index. Whenever tehre was a hit we removed it from its place and appended to the end of the vector.
