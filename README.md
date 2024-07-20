@@ -27,9 +27,10 @@ The input is given from the text file and the C++ code reads the text file and r
 and then the second line contains the tag bits(a), indexing bits(ibit), block offset(c) bits. Then they are followed by T lines containing the memory locations.
 
 ## Steps to run
-
+```
 1. Run the cachemem.cpp file and input the information according to the format in the text file.
 2. Record the outputs for further usage.
+```
 
 Our results can be visualized as below:
 ## Bar Graph
