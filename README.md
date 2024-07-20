@@ -4,7 +4,12 @@ Cache memory is an integral part of our systems these days. They help us achieve
 In this semester,through the course CSN-221,we have learnt the Core,Cache part of computer architecture under Prof.Debiprasanna Sahoo. In this repo,we have attempted to recreate or simulate cache 
 by writing a code in C++.
 For this,we have taken LRU replacemnet policy as our block replacement policy. ALso we have made all the sizes of cache as well as indexing,block offset variable and ran tests on them on three benchmarks from memory traces
-given by our sir.
+given by our professor.
+
+<div align="center">
+  <img src="cache.jpg" width="600px" />
+</div>
+
 ## LRU
 LRU or least recently used is an algorithm which is one of the best. As the name suggests LRU policy means in an index we remove the block which was accessed the earliest or whose recently used time is earlier than all the other 
 blocks. To implement this we need to keep track of the times at which the blocks were accessed and there are many ways of doing this like using a counter which would be incremented each time it was not accessed and reset whenever it was accessed.
@@ -20,7 +25,12 @@ we were able to simulate cache in C++.
 The input is given from the text file and the C++ code reads the text file and runs the simulation on the memory traces provided by [sir](http://www.cs.utah.edu/~rajeev/usimm-v1.3.tar.gz). The input format is of the form Number of memory locations(T),ways (N)
 and then the second line contains the tag bits,indexing bits,block offset bits. Then they are followed by T lines containing the memory locations.
 
-Our results are tabulated and graphed as below:
+## Steps to run
+
+1. Run the cachemem.cpp file and input the memory available, index etc.
+2. Output is obtained in mmout.txt.
+
+Our results can be visualized as below:
 ## Bar Graph
 ![Bar Graph](https://iili.io/yeCraS.png)
 ## Hitrate Table
