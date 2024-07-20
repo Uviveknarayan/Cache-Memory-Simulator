@@ -22,13 +22,14 @@ was present at the beginning whenever there was a miss and the new block was bro
 We used a vector to which we pushed the block tag whenever that particular block got a miss at the particular index. Whenever tehre was a hit we removed it from its place and appended to the end of the vector.
 We also used a valid bit to know whether ethe tag stored inside the block is junk or data. Whenever we are adding block from main memory this bit is made 1 from 0. This way using vector and some basic operations
 we were able to simulate cache in C++.
+## Input Format
 The input is given from the text file and the C++ code reads the text file and runs the simulation on the memory traces provided by [sir](http://www.cs.utah.edu/~rajeev/usimm-v1.3.tar.gz). The input format is of the form Number of memory locations(T),ways (N)
-and then the second line contains the tag bits,indexing bits,block offset bits. Then they are followed by T lines containing the memory locations.
+and then the second line contains the tag bits(a), indexing bits(ibit), block offset(c) bits. Then they are followed by T lines containing the memory locations.
 
 ## Steps to run
 
-1. Run the cachemem.cpp file and input the memory available, index etc.
-2. Output is obtained in mmout.txt.
+1. Run the cachemem.cpp file and input the information according to the format in the text file.
+2. Record the outputs for further usage.
 
 Our results can be visualized as below:
 ## Bar Graph
