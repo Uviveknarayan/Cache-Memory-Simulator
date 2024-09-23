@@ -37,3 +37,6 @@ Our results can be visualized as below:
 ![Bar Graph](https://iili.io/yeCraS.png)
 ## Hitrate Table
 ![Hit Rate Table](https://iili.io/yenKMv.png)
+
+## Contact Us
+In case of any queries, please contact us at +91-7989425329.
