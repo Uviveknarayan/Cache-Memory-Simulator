@@ -38,5 +38,7 @@ Our results can be visualized as below:
 ## Hitrate Table
 ![Hit Rate Table](https://iili.io/yenKMv.png)
 
+## Contributors
+Akula Koushik, Cheedu Praneeth Reddy, Pasala Veerasive, Ramavath Lalu, Uppala Vivek Narayan, Velavali Venkata Karthikeya Sai Vydhik.
 ## Contact Us
-In case of any queries, please contact us at +91-7989425329.
+In case of any queries, please contact us at +91-7989425329 or mail us at viveknarayan.u@gmail.com.
